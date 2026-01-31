@@ -32,6 +32,6 @@ System składa się z czterech głównych modułów widocznych w rozwiązaniu:
 
 ---
 
-## Wydania (Releases)
+## Wydania 
 Aktualna stabilna wersja: **v1.0**.
 Zapewnia ona pełną funkcjonalność zgodnie z założeniami projektu i pomyślnie przechodzi wszystkie testy automatyczne.
