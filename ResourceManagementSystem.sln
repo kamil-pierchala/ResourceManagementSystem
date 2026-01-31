@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RMS.SyncService", "RMS.Sync
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RMS.Client.WPF", "RMS.Client.WPF\RMS.Client.WPF.csproj", "{2F05E88A-AA80-4383-9052-CFD254A7B45F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RMS.Tests", "RMS.Tests\RMS.Tests.csproj", "{B8849AE6-F409-4079-8EF2-3EE3C34B50FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{2F05E88A-AA80-4383-9052-CFD254A7B45F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F05E88A-AA80-4383-9052-CFD254A7B45F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F05E88A-AA80-4383-9052-CFD254A7B45F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8849AE6-F409-4079-8EF2-3EE3C34B50FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8849AE6-F409-4079-8EF2-3EE3C34B50FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8849AE6-F409-4079-8EF2-3EE3C34B50FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8849AE6-F409-4079-8EF2-3EE3C34B50FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
