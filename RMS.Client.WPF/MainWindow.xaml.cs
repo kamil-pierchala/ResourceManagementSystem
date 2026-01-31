@@ -26,8 +26,7 @@ namespace RMS.Client.WPF
                 lblStatus.Foreground = System.Windows.Media.Brushes.Green;
                 lblStatus.Text = "Zalogowano pomyślnie!";
                 
-                // Tutaj później dodamy otwieranie głównego okna programu
-                MessageBox.Show($"Twój token: {token.Substring(0, 20)}...", "Sukces!");
+                //MessageBox.Show($"Twój token: {token.Substring(0, 20)}...", "Sukces!"); 
             }
             else
             {
