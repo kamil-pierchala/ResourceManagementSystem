@@ -2,11 +2,13 @@
 using Microsoft.EntityFrameworkCore;
 using RMS.API.Data;
 using RMS.API.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace RMS.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class UsersController : ControllerBase
     {
         private readonly AppDbContext _context;
